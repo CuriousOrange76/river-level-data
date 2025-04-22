@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }} # Use PAT for checkout
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -24,3 +26,5 @@ jobs:
           git add river_data*.csv
           git commit -m "Update river data CSV $(date +%Y%m%d_%H%M%S)" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }} # Use PAT for push
