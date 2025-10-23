@@ -1,0 +1,3 @@
+station_id,station_name,river,value,timestamp,status
+L1707A,Leeds Crown Point Flood Alleviation Scheme,River Aire,22.549,2025-10-23T21:30:00Z,stable
+L1705A,Leeds Knostrop Weir Flood Alleviation Scheme,River Aire,19.884,2025-10-23T21:30:00Z,stable
