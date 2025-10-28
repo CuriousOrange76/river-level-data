@@ -1,0 +1,4 @@
+station_id,station_name,river,value,timestamp,status
+L1602,Apperley Bridge,River Aire,0.347,2025-10-28T04:15:00Z,dropping
+L1707A,Leeds Crown Point Flood Alleviation Scheme,River Aire,22.593,2025-10-28T04:15:00Z,dropping
+L1705A,Leeds Knostrop Weir Flood Alleviation Scheme,River Aire,19.958,2025-10-28T04:15:00Z,dropping
